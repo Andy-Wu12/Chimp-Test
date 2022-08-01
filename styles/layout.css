@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#game-board {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+}
+
+.node {
+    height: 80px;
+    width: 80px;
+}
+
+.node-t {
+    height: 80px;
+    width: 80px;
+    visibility: visible;
+    font-size: 30pt;
+}
+
+.node-f {
+    visibility: hidden;
+}
